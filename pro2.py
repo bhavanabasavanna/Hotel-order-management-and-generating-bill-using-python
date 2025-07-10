@@ -5,9 +5,9 @@ class hotel:
     items = {'dosa' :10,'pulav':4,'poori':6,'coffe':8}
     price= {'dosa' :100,'pulav':50,'poori':70,'coffe':20}
     def __init__(self,name,phno,table_no):
-         self.name=name
-         self.phno=phno
-         self.table_no=table_no
+         self.name = name
+         self.phno = phno
+         self.table_no = table_no
          self.order ={}
 
     def display_order(self):
